@@ -1,0 +1,73 @@
+.action-button{
+    font-size:1.3em;
+    a{
+        margin: 0 5px 0 5px;
+    }
+}
+#FeeList{
+    td{
+        text-align:right;
+    }
+    input{
+        text-align:right;
+    }
+}
+.table{
+    td{
+        vertical-align: middle !important;
+    }
+}
+.table-noborder{
+    tr{
+        border:none !important;
+        td{
+                border:none !important;
+        }
+    }
+}
+input.error{
+    border: 1px solid #e55957;
+}
+label.error{
+    font-style:italic;
+    color:#e55957;
+}
+.bg_blue{
+    background:#348fe2!important;
+}
+.bg_red{
+    background:#ff5b57!important;
+    color:#fff;
+}
+.edit-status-row{
+        padding: 3px 8px;
+    background: #ff5b57 !important;
+    color: #fff;
+    border-radius: 4px;
+}
+.m-r-5{
+    margin-right:5px;
+}
+
+.delete-row{
+    display:none;
+}
+
+.modal-header{
+    background:#ec6459;
+    text-align:center;
+    border-bottom:5px solid #ff1300;
+}
+.modal-body{
+    background:#fff;
+    text-align:center;
+}
+.modal-footer{
+    text-align:center;
+}
+.state-overview .panel .symbol{
+    transition:all 0.5s; }
+.state-overview .panel:hover .symbol{
+    transform:rotate(360deg);
+}
+
